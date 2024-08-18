@@ -37,6 +37,7 @@ display_surface = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Donut')
 font = pygame.font.SysFont('Arial', 18, bold=True)
 
+# changes colours of the donut
 def hsv2rgb(h, s, v):
     return tuple(round(i * 255) for i in colorsys.hsv_to_rgb(h, s, v))
 
